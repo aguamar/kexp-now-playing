@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 5vh;
+  font-family: 'Patua One', sans-serif;
+  color: goldenrod;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 12vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+}
+
+main .album-art {
+  width: 100%;
+}
+
+main .track {
+  margin-left: 5vh;
+  font-size: 5vh;
+}
+
+main h2, main h3, main h4 {
+  margin-top: unset;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
+
+li::after {
+  content: ' • ';
+}
+
+li:last-of-type::after {
+  content: none
+}

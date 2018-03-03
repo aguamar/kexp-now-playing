@@ -1,2 +1,7 @@
-# kexp-now-playing
-Current track playing on KEXP.org. Designed for display on ambient dashboards like Corsica.
+# KEXP now playing
+
+Not associated with https://kexp.org. I just use their API.
+
+Support them: https://kexp.org/donate.
+
+March 2018, Emma Humphries
